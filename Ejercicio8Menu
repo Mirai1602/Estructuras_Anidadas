@@ -1,0 +1,27 @@
+"""
+Autor: Mayrin Tellez
+Fecha: 12-05-25
+Version: 1.0
+Descripcion:Es un menu interactivo que termina la ejecucion al dar a la opcion de salir 
+"""
+import datetime
+import os 
+def SalirPrograma():
+    print("Bienvenido al menu interactivo de opciones")
+    Name_User  = input("Ingresa tu nombre: ")
+    while True:
+        print("Bienvenido al menu de opciones: ")
+        print ("Opcion 1: Saludar")
+        print("Opcion 2: Mostrar la fecha")
+        print("Opcion 3: Salir del programa")
+        opcion = input("Ingrese una opcion: ")
+        os.system("cls")
+        if opcion == "1": 
+            print(f"Hola, {Name_User} Buenos dias!")
+        elif opcion == "2":
+            print("La fecha del dia de hoy es: ", datetime.datetime.now().strftime("%Y-%m-%d"))
+        elif opcion == "3":
+            print("Saliendo del programa....")
+            break
+        else:
+            print("Ingrese una opcion valida")
