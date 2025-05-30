@@ -1,0 +1,19 @@
+"""
+Autor: Mayrin Tellez
+Version: 1.0
+Fecha: 12-05-25
+Descripcion:  Realiza la suma de numeros mientras el contador sea menos a 100
+"""
+
+
+
+def ContarNumeros():
+    print("Bienvenido al contador de numeros y suma.")
+    print("***********************************")
+    contador = 1
+    suma = 0 
+    while contador <= 100:
+        if contador % 2 != 0:
+            suma += contador
+         contador += 1
+    print("La suma final es igual: ", suma)
