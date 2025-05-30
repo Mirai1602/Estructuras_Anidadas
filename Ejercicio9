@@ -1,0 +1,13 @@
+"""
+Autor: Mayrin Tellez
+Version: 1.0
+Fecha: 29-05-25
+Descripcion:  Genera los primeros n números de la serie de Fibonacci. 
+"""
+def secuencia():
+    numero = int(input("Ingrese un numero n, sera la cantidad de elementos de la secuencia: "))
+    a = 0
+    b=1 
+    for b in range(n):
+      print(a, end=" ")
+      a, b = b, a + b
