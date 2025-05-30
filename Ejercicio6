@@ -1,0 +1,21 @@
+"""
+Autor: Mayrin Tellez
+Version: 1.0
+Fecha: 129-05-25
+Descripcion:  Solicita una cantidad indeterminada de calificaciones hasta que el usuario ingrese -1. 
+Calcula y muestra el promedio. 
+"""
+def calificaciones():
+    suma = 0
+    contador =0 
+    calificacion = float(input("Ingresa una calificación (-1 para finalizar): "))
+    while calificacion != -1:
+        suma += calificacion
+        contador += 1 
+
+
+        calificacion = float(input("Ingresa otra calificación (-1 para finalizar):"))
+
+        if contador > 0 : 
+            promedio = suma / contador
+            print(f"El promedio de calificaciones es: {promedio}")
