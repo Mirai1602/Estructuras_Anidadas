@@ -1,0 +1,20 @@
+"""
+Autor: Mayrin Tellez
+Version: 1.0
+Fecha: 129-05-25
+Descripcion:  Genera un número aleatorio entre 1 y 10. El usuario debe adivinarlo. El programa da 
+pistas: "mayor" o "menor".
+
+"""
+import random
+def aleatorio():
+    ale = random.randint(1, 10)
+    numero_usuario = int(input("Ingrese un numero entre el 1 al 10: "))
+    while (numero_usuario != ale):
+        if (numero_usuario < ale):
+            print("Debes tratar con un numero mayor al que ingresastes: ")
+        if(numero_usuario > ale): 
+            print("Debes tratar con un numero menor al que ingresastes: ")
+        else (numero_usuario == ale):
+           
+         print("Hey, Ganastes!")
