@@ -1,0 +1,13 @@
+"""
+Autor: Mayrin Tellez
+Version: 1.0
+Fecha: 129-05-25
+Descripcion: Solicita un número positivo y cuenta cuántos dígitos tiene. 
+"""
+def Digitos():
+    numero = int(input("Ingrese un numero entero positivo: "))
+    conteo_digitos = 0 
+    while numero > 0: 
+        div = numero / 10 
+        conteo_digitos +=1
+    print(f"La cantidad total de digitos es:{conteo_digitos} ")
