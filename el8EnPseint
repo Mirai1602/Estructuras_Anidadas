@@ -1,0 +1,27 @@
+//Autor: Mayrin Tellez
+//Fecha: 12-05-25
+//Version: 1.0
+//Descripcion: Menu interactivo con diferentes opciones que termina su ejecucion al dar Salir
+Algoritmo Ejerc8Menu
+	definir opcion como entero
+	Repetir
+		Escribir "Opcion 1: Saludar"
+		Escribir "Opcion 2: Mostrar la fecha"
+		Escribir "Opcion 3: Salir del programa"
+		Escribir "Ingrese una opcion"
+		leer opcion 
+		segun opcion hacer
+			Caso 1: 
+				Escribir "Hola! Muy buenos dias a ti"
+			Caso 2: 
+				Escribir "La fecha del dia de hoy es: ", FechaActual()
+			Caso 3: 
+				Escribir "Ahora saldras del programa"
+			otro: 
+				Escribir "Ingrese una opcion valida"
+		FinSegun
+		
+	Hasta Que opcion = 3
+	
+	
+FinAlgoritmo
