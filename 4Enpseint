@@ -1,0 +1,18 @@
+Algoritmo BucleEjerc4
+	definir num, conteo , i como entero
+	
+	Escribir "Ingrese un numero positivo"
+	leer num 
+	Si num > 0 Entonces
+		para i = num hasta 0 con paso -1 Hacer
+			escribir "Bienvenido a nuestro contador!!"
+			Escribir "A continuacion te presentaremos el conteo regresivo del numero que ingresastes"
+			escribir "Conteo: ", i 
+		FinPara
+	SiNo 
+		Escribir "El numero ingresado debe de ser positivo"
+		
+	FinSi 
+	
+	
+FinAlgoritmo
