@@ -1,0 +1,36 @@
+//Autor: Mayrin Tellez
+//Fecha: 08-05-25
+//Version: 1.0
+//Descripcion: Se genera un numero a azar, se le pide ingresar al usuario un numero entre el 1 y 10 hasta que adivine el correcto.
+Algoritmo BucleEjerc5
+	definir ramdon, num  como entero
+	ramdon = AZAR(10) + 1
+	Escribir "Hola! Bienvenido al juego de AdivinanzasMax"
+	Escribir "En este juego adivinaras el numero secreto entre el 1 y 10. Podras adivinar que numero es? "
+	Escribir "Por favor, para iniciar ingresa un numero entero entre el 1 y el 10"
+	leer num
+	Limpiar Pantalla
+	mientras num <> ramdon Hacer
+		si num > ramdon Entonces
+			Escribir "Buen intento!"
+			escribir "Trata con un numero menor al que ingresastes"
+			Escribir "Intentalo de nuevo"
+			leer num
+			Limpiar Pantalla
+		sino
+			Si num < ramdon Entonces
+				Escribir "Buen intento!"
+				Escribir "Trata con un numero mayor al que ingresastes"
+				Escribir "Intentalo de nuevo!"
+				leer num
+				Limpiar Pantalla
+			FinSi
+		FinSi
+	
+		si num = ramdon Entonces
+			Escribir "Felicidades, ganastes!"
+		FinSi
+	FinMientras
+	
+	
+FinAlgoritmo
