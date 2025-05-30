@@ -1,0 +1,20 @@
+//Autor:Mayrin Tellez
+//Version:1.0
+//Fecha:12-05-25
+//Descripcion: Realiza la suma de numeros mientras el contador sea menos a 100 
+Algoritmo Ejercicio10
+	definir contador , suma como entero
+	contador= 1
+	suma= 0 
+	mientras contador <= 100 Hacer
+		si contador MOD 2 <> 0 Entonces
+			suma= suma + contador
+		FinSi
+		
+	 contador = contador + 1
+	FinMientras
+
+	Escribir "La suma total es: ", suma 
+	
+	
+FinAlgoritmo
