@@ -1,0 +1,14 @@
+"""
+Autor: Mayrin Tellez
+Version: 1.0
+Fecha: 129-05-25
+Descripcion:  Solicita al usuario un número positivo e imprime un conteo regresivo hasta 0. 
+Procedimiento paso a paso
+"""
+def ConteoAlreves():
+    numero= int(input("Ingrese un numero entero positivo: "))
+    if (numero >= 0):
+        for i in range(numero, -1, -1):
+         print(i)
+    else: 
+       print("Ingrese un numero valido")
