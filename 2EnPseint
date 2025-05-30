@@ -1,0 +1,15 @@
+Algoritmo BucleEjerc3
+	//Autor: Mayrin Tellez
+	//Fecha: 08-05-25
+	//Version: 1.0
+	//Descripcion: El programa solicita al usuario un numero y reliza la suma de los numero hasta que sea igual a 100
+	definir suma, num como entero 
+	suma = 0 
+	repetir  
+		Escribir "Ingrese un numero: "
+		leer num
+		suma = num + suma
+	Hasta Que  suma = 100
+	Escribir "La suma total es igual a: ", suma
+	
+FinAlgoritmo
