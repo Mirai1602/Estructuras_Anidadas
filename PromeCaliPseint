@@ -1,0 +1,22 @@
+//Autor: Mayrin Tellez
+//Fecha:09-05-25
+//Version: 1.0
+//Decripcion: SOlicita un acantidad indeterminanda de calificaciones hasta que el usuario ingresa -1, muestra el promedio 
+Algoritmo PromediarCalificaciones 
+	definir notas , umaotas, cantnotas, sumaNotas como entero 
+	definir promNotas como real
+	sumaNotas=0
+	Repetir
+		Escribir "Ingrese una calificacion (-1 para terminar)"
+		leer notas
+		si (notas <> -1 )entonces
+			sumaNotas = sumaNotas + notas
+			cantnotas= cantnotas+1
+		FinSi
+	
+	Hasta Que notas == -1
+	escribir "Se ingreso un total de", cantnotas ,  "calificaciones"
+	
+	escribir "El promedio de calificaciones es de: ", sumaNotas/ cantnotas
+	
+FinAlgoritmo
