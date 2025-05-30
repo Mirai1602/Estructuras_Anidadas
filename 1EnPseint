@@ -1,0 +1,11 @@
+Algoritmo BucleEjer1
+	definir num, i, contador, multiplicacion como entero
+	escribir "Ingrese un numero entero del que desea obtener su tabla de multiplicar"
+	para i=1 hasta 10 Hacer
+		contador= contador + 1
+		multiplicacion = num * i
+		escribir "Multiplicacion: ", multiplicacion 
+	FinPara
+	
+	
+FinAlgoritmo
